@@ -170,10 +170,11 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button; 
+  -webkit-appearance: button; 
 }
 
 /**
@@ -191,9 +192,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -246,8 +247,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -255,8 +256,9 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
-  -webkit-appearance: textfield; /* 1 */
+[type="search"] {
+  appearance: textfield; 
+  -webkit-appearance: textfield; 
   outline-offset: -2px; /* 2 */
 }
 
