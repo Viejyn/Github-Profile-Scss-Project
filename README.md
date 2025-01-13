@@ -7,4 +7,3 @@
 
 ![](Screen.gif)
 
-# Github-Profile-Scss-Project
